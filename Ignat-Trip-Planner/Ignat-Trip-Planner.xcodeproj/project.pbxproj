@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD77B12E1BE41667008ADCAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B12D1BE41667008ADCAC /* AppDelegate.swift */; };
+		CD77B1301BE41667008ADCAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B12F1BE41667008ADCAC /* ViewController.swift */; };
+		CD77B1331BE41667008ADCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD77B1311BE41667008ADCAC /* Main.storyboard */; };
+		CD77B1351BE41667008ADCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD77B1341BE41667008ADCAC /* Assets.xcassets */; };
+		CD77B1381BE41667008ADCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD77B1361BE41667008ADCAC /* LaunchScreen.storyboard */; };
+		CD77B1431BE41667008ADCAC /* Ignat_Trip_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1421BE41667008ADCAC /* Ignat_Trip_PlannerTests.swift */; };
+		CD77B14E1BE41668008ADCAC /* Ignat_Trip_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B14D1BE41668008ADCAC /* Ignat_Trip_PlannerUITests.swift */; };
+		CD77B15F1BE416D2008ADCAC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B15E1BE416D2008ADCAC /* APIClient.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1641BE418CC008ADCAC /* JSONTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1631BE418CC008ADCAC /* JSONTrip.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1661BE418D9008ADCAC /* JSONWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1651BE418D9008ADCAC /* JSONWaypoint.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1681BE4200F008ADCAC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1671BE4200F008ADCAC /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B16B1BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1691BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		CD77B16D1BE4207E008ADCAC /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B16C1BE4207E008ADCAC /* Waypoint.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1701BE420E0008ADCAC /* Synchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B16F1BE420E0008ADCAC /* Synchronizer.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1721BE4219A008ADCAC /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1711BE4219A008ADCAC /* Trip.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1741BE424C7008ADCAC /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77B1731BE424C7008ADCAC /* CoreDataClient.swift */; settings = {ASSET_TAGS = (); }; };
+		CD77B1761BE426C6008ADCAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = CD77B1751BE426C6008ADCAC /* Cartfile */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD77B13F1BE41667008ADCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD77B1221BE41667008ADCAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD77B1291BE41667008ADCAC;
+			remoteInfo = "Ignat-Trip-Planner";
+		};
+		CD77B14A1BE41667008ADCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD77B1221BE41667008ADCAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD77B1291BE41667008ADCAC;
+			remoteInfo = "Ignat-Trip-Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD77B12A1BE41667008ADCAC /* Ignat-Trip-Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ignat-Trip-Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77B12D1BE41667008ADCAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD77B12F1BE41667008ADCAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD77B1321BE41667008ADCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD77B1341BE41667008ADCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD77B1371BE41667008ADCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD77B1391BE41667008ADCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77B13E1BE41667008ADCAC /* Ignat-Trip-PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ignat-Trip-PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77B1421BE41667008ADCAC /* Ignat_Trip_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ignat_Trip_PlannerTests.swift; sourceTree = "<group>"; };
+		CD77B1441BE41667008ADCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77B1491BE41667008ADCAC /* Ignat-Trip-PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ignat-Trip-PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77B14D1BE41668008ADCAC /* Ignat_Trip_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ignat_Trip_PlannerUITests.swift; sourceTree = "<group>"; };
+		CD77B14F1BE41668008ADCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77B15E1BE416D2008ADCAC /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = "Ignat-Trip-Planner/APIClient.swift"; sourceTree = SOURCE_ROOT; };
+		CD77B1631BE418CC008ADCAC /* JSONTrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTrip.swift; sourceTree = "<group>"; };
+		CD77B1651BE418D9008ADCAC /* JSONWaypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONWaypoint.swift; sourceTree = "<group>"; };
+		CD77B1671BE4200F008ADCAC /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CD77B16A1BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripPlannerCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		CD77B16C1BE4207E008ADCAC /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
+		CD77B16F1BE420E0008ADCAC /* Synchronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronizer.swift; sourceTree = "<group>"; };
+		CD77B1711BE4219A008ADCAC /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = "Ignat-Trip-Planner/CoreData/Trip.swift"; sourceTree = SOURCE_ROOT; };
+		CD77B1731BE424C7008ADCAC /* CoreDataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
+		CD77B1751BE426C6008ADCAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD77B1271BE41667008ADCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77B13B1BE41667008ADCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77B1461BE41667008ADCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD77B1211BE41667008ADCAC = {
+			isa = PBXGroup;
+			children = (
+				CD77B1751BE426C6008ADCAC /* Cartfile */,
+				CD77B12C1BE41667008ADCAC /* Ignat-Trip-Planner */,
+				CD77B1411BE41667008ADCAC /* Ignat-Trip-PlannerTests */,
+				CD77B14C1BE41668008ADCAC /* Ignat-Trip-PlannerUITests */,
+				CD77B12B1BE41667008ADCAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD77B12B1BE41667008ADCAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B12A1BE41667008ADCAC /* Ignat-Trip-Planner.app */,
+				CD77B13E1BE41667008ADCAC /* Ignat-Trip-PlannerTests.xctest */,
+				CD77B1491BE41667008ADCAC /* Ignat-Trip-PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD77B12C1BE41667008ADCAC /* Ignat-Trip-Planner */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B1611BE41887008ADCAC /* APIClient */,
+				CD77B1621BE418AD008ADCAC /* CoreData */,
+				CD77B1601BE41877008ADCAC /* Models */,
+				CD77B15D1BE41691008ADCAC /* Frameworks */,
+				CD77B16E1BE420CC008ADCAC /* Synchronization */,
+				CD77B12D1BE41667008ADCAC /* AppDelegate.swift */,
+				CD77B12F1BE41667008ADCAC /* ViewController.swift */,
+				CD77B1311BE41667008ADCAC /* Main.storyboard */,
+				CD77B1341BE41667008ADCAC /* Assets.xcassets */,
+				CD77B1361BE41667008ADCAC /* LaunchScreen.storyboard */,
+				CD77B1391BE41667008ADCAC /* Info.plist */,
+			);
+			path = "Ignat-Trip-Planner";
+			sourceTree = "<group>";
+		};
+		CD77B1411BE41667008ADCAC /* Ignat-Trip-PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B1421BE41667008ADCAC /* Ignat_Trip_PlannerTests.swift */,
+				CD77B1441BE41667008ADCAC /* Info.plist */,
+			);
+			path = "Ignat-Trip-PlannerTests";
+			sourceTree = "<group>";
+		};
+		CD77B14C1BE41668008ADCAC /* Ignat-Trip-PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B14D1BE41668008ADCAC /* Ignat_Trip_PlannerUITests.swift */,
+				CD77B14F1BE41668008ADCAC /* Info.plist */,
+			);
+			path = "Ignat-Trip-PlannerUITests";
+			sourceTree = "<group>";
+		};
+		CD77B15D1BE41691008ADCAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD77B1601BE41877008ADCAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B1631BE418CC008ADCAC /* JSONTrip.swift */,
+				CD77B1651BE418D9008ADCAC /* JSONWaypoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD77B1611BE41887008ADCAC /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B15E1BE416D2008ADCAC /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		CD77B1621BE418AD008ADCAC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B1671BE4200F008ADCAC /* CoreDataStack.swift */,
+				CD77B16C1BE4207E008ADCAC /* Waypoint.swift */,
+				CD77B1711BE4219A008ADCAC /* Trip.swift */,
+				CD77B1691BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodeld */,
+				CD77B1731BE424C7008ADCAC /* CoreDataClient.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CD77B16E1BE420CC008ADCAC /* Synchronization */ = {
+			isa = PBXGroup;
+			children = (
+				CD77B16F1BE420E0008ADCAC /* Synchronizer.swift */,
+			);
+			name = Synchronization;
+			path = "Ignat-Trip-Planner/Synchronization";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD77B1291BE41667008ADCAC /* Ignat-Trip-Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD77B1521BE41668008ADCAC /* Build configuration list for PBXNativeTarget "Ignat-Trip-Planner" */;
+			buildPhases = (
+				CD77B1261BE41667008ADCAC /* Sources */,
+				CD77B1271BE41667008ADCAC /* Frameworks */,
+				CD77B1281BE41667008ADCAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ignat-Trip-Planner";
+			productName = "Ignat-Trip-Planner";
+			productReference = CD77B12A1BE41667008ADCAC /* Ignat-Trip-Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD77B13D1BE41667008ADCAC /* Ignat-Trip-PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD77B1551BE41668008ADCAC /* Build configuration list for PBXNativeTarget "Ignat-Trip-PlannerTests" */;
+			buildPhases = (
+				CD77B13A1BE41667008ADCAC /* Sources */,
+				CD77B13B1BE41667008ADCAC /* Frameworks */,
+				CD77B13C1BE41667008ADCAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD77B1401BE41667008ADCAC /* PBXTargetDependency */,
+			);
+			name = "Ignat-Trip-PlannerTests";
+			productName = "Ignat-Trip-PlannerTests";
+			productReference = CD77B13E1BE41667008ADCAC /* Ignat-Trip-PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD77B1481BE41667008ADCAC /* Ignat-Trip-PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD77B1581BE41668008ADCAC /* Build configuration list for PBXNativeTarget "Ignat-Trip-PlannerUITests" */;
+			buildPhases = (
+				CD77B1451BE41667008ADCAC /* Sources */,
+				CD77B1461BE41667008ADCAC /* Frameworks */,
+				CD77B1471BE41667008ADCAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD77B14B1BE41667008ADCAC /* PBXTargetDependency */,
+			);
+			name = "Ignat-Trip-PlannerUITests";
+			productName = "Ignat-Trip-PlannerUITests";
+			productReference = CD77B1491BE41667008ADCAC /* Ignat-Trip-PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD77B1221BE41667008ADCAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ignat Remizov";
+				TargetAttributes = {
+					CD77B1291BE41667008ADCAC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CD77B13D1BE41667008ADCAC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CD77B1291BE41667008ADCAC;
+					};
+					CD77B1481BE41667008ADCAC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CD77B1291BE41667008ADCAC;
+					};
+				};
+			};
+			buildConfigurationList = CD77B1251BE41667008ADCAC /* Build configuration list for PBXProject "Ignat-Trip-Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD77B1211BE41667008ADCAC;
+			productRefGroup = CD77B12B1BE41667008ADCAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD77B1291BE41667008ADCAC /* Ignat-Trip-Planner */,
+				CD77B13D1BE41667008ADCAC /* Ignat-Trip-PlannerTests */,
+				CD77B1481BE41667008ADCAC /* Ignat-Trip-PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD77B1281BE41667008ADCAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77B1381BE41667008ADCAC /* LaunchScreen.storyboard in Resources */,
+				CD77B1351BE41667008ADCAC /* Assets.xcassets in Resources */,
+				CD77B1761BE426C6008ADCAC /* Cartfile in Resources */,
+				CD77B1331BE41667008ADCAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77B13C1BE41667008ADCAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77B1471BE41667008ADCAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD77B1261BE41667008ADCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77B1721BE4219A008ADCAC /* Trip.swift in Sources */,
+				CD77B1301BE41667008ADCAC /* ViewController.swift in Sources */,
+				CD77B12E1BE41667008ADCAC /* AppDelegate.swift in Sources */,
+				CD77B1661BE418D9008ADCAC /* JSONWaypoint.swift in Sources */,
+				CD77B16B1BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodeld in Sources */,
+				CD77B16D1BE4207E008ADCAC /* Waypoint.swift in Sources */,
+				CD77B1741BE424C7008ADCAC /* CoreDataClient.swift in Sources */,
+				CD77B1701BE420E0008ADCAC /* Synchronizer.swift in Sources */,
+				CD77B1681BE4200F008ADCAC /* CoreDataStack.swift in Sources */,
+				CD77B1641BE418CC008ADCAC /* JSONTrip.swift in Sources */,
+				CD77B15F1BE416D2008ADCAC /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77B13A1BE41667008ADCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77B1431BE41667008ADCAC /* Ignat_Trip_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77B1451BE41667008ADCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77B14E1BE41668008ADCAC /* Ignat_Trip_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD77B1401BE41667008ADCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD77B1291BE41667008ADCAC /* Ignat-Trip-Planner */;
+			targetProxy = CD77B13F1BE41667008ADCAC /* PBXContainerItemProxy */;
+		};
+		CD77B14B1BE41667008ADCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD77B1291BE41667008ADCAC /* Ignat-Trip-Planner */;
+			targetProxy = CD77B14A1BE41667008ADCAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD77B1311BE41667008ADCAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD77B1321BE41667008ADCAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD77B1361BE41667008ADCAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD77B1371BE41667008ADCAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD77B1501BE41668008ADCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD77B1511BE41668008ADCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD77B1531BE41668008ADCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ignat-Trip-Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.students.Ignat-Trip-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD77B1541BE41668008ADCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ignat-Trip-Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.students.Ignat-Trip-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD77B1561BE41668008ADCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ignat-Trip-PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.students.Ignat-Trip-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ignat-Trip-Planner.app/Ignat-Trip-Planner";
+			};
+			name = Debug;
+		};
+		CD77B1571BE41668008ADCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ignat-Trip-PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.students.Ignat-Trip-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ignat-Trip-Planner.app/Ignat-Trip-Planner";
+			};
+			name = Release;
+		};
+		CD77B1591BE41668008ADCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ignat-Trip-PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.students.Ignat-Trip-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ignat-Trip-Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD77B15A1BE41668008ADCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ignat-Trip-PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.students.Ignat-Trip-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ignat-Trip-Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD77B1251BE41667008ADCAC /* Build configuration list for PBXProject "Ignat-Trip-Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77B1501BE41668008ADCAC /* Debug */,
+				CD77B1511BE41668008ADCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD77B1521BE41668008ADCAC /* Build configuration list for PBXNativeTarget "Ignat-Trip-Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77B1531BE41668008ADCAC /* Debug */,
+				CD77B1541BE41668008ADCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD77B1551BE41668008ADCAC /* Build configuration list for PBXNativeTarget "Ignat-Trip-PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77B1561BE41668008ADCAC /* Debug */,
+				CD77B1571BE41668008ADCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD77B1581BE41668008ADCAC /* Build configuration list for PBXNativeTarget "Ignat-Trip-PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77B1591BE41668008ADCAC /* Debug */,
+				CD77B15A1BE41668008ADCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD77B1691BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD77B16A1BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = CD77B16A1BE4205F008ADCAC /* TripPlannerCoreDataModel.xcdatamodel */;
+			path = TripPlannerCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD77B1221BE41667008ADCAC /* Project object */;
+}
